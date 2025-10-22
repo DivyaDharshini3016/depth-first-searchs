@@ -1,5 +1,5 @@
 <h1>ExpNo 2 : Implement Depth First Search Traversal of a Graph</h1> 
-<h3>Name:Divya Dharshini S</h3>
+<h3>Name: Divya Dharshini S</h3>
 <h3>Register Number: 212224240039 </h3>
 <H3>Aim:</H3>
 <p> To Implement Depth First Search Traversal of a Graph using Python 3.</p>
@@ -54,7 +54,8 @@ Now, the Stack becomes empty, which means we have visited all the nodes, and our
  <li>If Not Visited, add it to the STACK. Else Call The Function Again Until No more nodes needs to be visited.</li>
 </ol></B>
 <hr>
-##Program:
+
+## Program:
 ```
 from collections import defaultdict, deque
 def bfs(graph, start, visited, path):
@@ -88,16 +89,16 @@ traversedpath = bfs(graph, start, visited, path)
 print(traversedpath)
 ```
 <h3>Sample Input</h3>
-8 9 
-A B 
-A C 
-B E 
-C D 
-B D 
-C G 
-D F 
-G F 
-F H
+8 9 <BR>
+A B <BR>
+A C <BR>
+B E <BR>
+C D <BR>
+B D <BR>
+C G <BR>
+D F <BR>
+G F <BR>
+F H <BR>
 
 <h3>Sample Output</h3>
 
